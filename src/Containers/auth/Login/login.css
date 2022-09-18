@@ -1,0 +1,43 @@
+.auth-bg{
+    max-height: 100%;
+    width: auto;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 0.5em;
+    background-color: #E5E5E5;
+}
+
+.wrapper > div{
+    display: flex;
+    flex : 10;
+    height: 100% !important;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth-field{
+    width: 320px;
+    font-size: 1em !important;
+}
+
+.auth-header{
+    font-size: 2em;
+    margin-bottom: 0.2em !important;
+}
+
+.auth-desc{
+    color: gray;
+}
+
+.remember{
+    font-size: 0.75em;
+    color: gray;
+}
